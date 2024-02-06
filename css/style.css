@@ -6,5 +6,52 @@
 }
 body{
     font-family: 'Roboto', Arial;
+    background-color: #f6f8f9d4;
 }
 
+/*Header*/
+header div h1{
+    display: inline-block;
+}
+header div{
+    max-width: 1200px;
+    background-color: white;
+    margin: 10px;
+}
+/*main*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/*bg-colors*/
+.bg-blue{
+    background-color: #47ADF1;
+}
+.bg-violet{
+    background-color: #9C72E4;
+}
+.bg-green{
+    background-color: #64C0A9;
+}
+.bg-orange{
+    background-color: #F29E33;
+}
+.bg-pink{
+    background-color: #D863A1;
+}
+
+/*text-color*/
+.text-white{
+    color: white;
+}
+.text-red{
+    color: red;
+}
+.text-green{
+    color: green;
+}
+.text-grey{
+    color: grey;
+}
