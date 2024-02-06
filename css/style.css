@@ -23,6 +23,8 @@ header div{
     width: 80%;
     margin: 0 auto;
     background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /*bg-colors*/
@@ -34,6 +36,9 @@ header div{
 }
 .bg-green{
     background-color: #64C0A9;
+}
+.bg-green-light{
+    background-color: #B0C926;
 }
 .bg-orange{
     background-color: #F29E33;
@@ -55,3 +60,25 @@ header div{
 .text-grey{
     color: grey;
 }
+
+/*radius*/
+.little-radius{
+    border-radius: 5%;
+}
+.half-radius{
+    border-radius: 10%;
+}
+.full-radius{
+    border-radius: 50%;
+}
+
+/*border*/
+.box-check{
+    border: 1px solid green;
+}
+
+.box-cross{
+    border: 1px solid red;
+}
+
+/*size-text*/
