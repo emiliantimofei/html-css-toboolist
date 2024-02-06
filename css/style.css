@@ -7,6 +7,7 @@
 body{
     font-family: 'Roboto', Arial;
     background-color: #f6f8f9d4;
+    font-weight: 900;
 }
 
 /*Header*/
@@ -14,17 +15,31 @@ header div h1{
     display: inline-block;
 }
 header div{
-    max-width: 1200px;
+    max-width: 100%;
     background-color: white;
     margin: 10px;
 }
 /*main*/
-.container{
+.container-1{
     width: 80%;
     margin: 0 auto;
     background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px;
+}
+.container-2{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+section{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.row{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /*bg-colors*/
@@ -63,10 +78,10 @@ header div{
 
 /*radius*/
 .little-radius{
-    border-radius: 5%;
+    border-radius: 10%;
 }
 .half-radius{
-    border-radius: 10%;
+    border-radius: 15%;
 }
 .full-radius{
     border-radius: 50%;
@@ -81,4 +96,17 @@ header div{
     border: 1px solid red;
 }
 
-/*size-text*/
+/*size-text simbol*/
+.smaller{
+    font-size: 14px;
+}
+
+/*padding of small things*/
+.pad{
+    padding: 2px;
+}
+
+/*other*/
+.pad-bt{
+    border: none;
+}
